@@ -1,0 +1,303 @@
+*{
+    /* to remove white space */
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow:auto;
+}
+
+.home-caption{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav-logo{
+   
+    width: 13%;
+    float: left;
+    margin-top: 10px;
+}
+.nav-logo img{
+    /*  give the logo image a width of 100% of its parent (nav-logo) 
+    so that the entire logo fits inside the width of the div after we made it 20%*/
+    width: 100%;
+}
+
+.nav-links{
+   
+    float: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    margin-top: 10px;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    
+    color: #deb513;
+  }
+
+
+.clr{
+    clear:both;
+
+}
+
+.home-caption p{
+    font-size: 23px;
+}
+
+.home-caption h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.home-caption .btn{
+    padding: 17px;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 20px 5px;
+    transition-duration: 0.4s;
+}
+
+.home-caption .btn1{
+    background-color:#8e7754 ; 
+    border-width: 0;
+}
+
+.home-caption .btn2{
+    background-color: transparent;
+    border-color: white;
+}
+
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+  }
+  
+  .btn2:hover {
+    background-color: white;
+    color: black;
+  }
+
+.scroll{
+    width: 35px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+/*   WHO WE ARE SECTION */
+
+.whoWeAre{
+
+    /* to centre everything in the middle */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.whoWeAre-img{
+    width: 40%;
+    float: left;
+}
+
+.whoWeAre-img img{
+    width: 100%;
+}
+
+.whoWeAre-caption{
+    width: 40%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #686868;
+    margin-right: 20px;
+
+}
+
+.whoWeAre-caption h2{
+    color: black;
+}
+.whoWeAre-caption p{
+    margin: 20px 0;
+}
+.whoWeAre-list{
+    text-align: left; 
+}
+
+.whoWeAre-list ul li{
+    padding: 15px;
+}
+
+/* Our Location Section */
+.location{
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.loc{
+    background-color: #fffff0;
+}
+
+
+.location-caption{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 50px 30px;
+
+}
+.location-caption h2{
+    color: black;
+}
+
+.location-img{
+    width: 40%;
+    float: right;
+}
+.location-img img{
+    width: 100%;
+}
+
+.p1{
+    margin: 30px 0px;
+}
+
+/* Our Baking Section */
+.baking{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.meal{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.meal p{
+    padding: 10px 0;
+    color: #686868;
+
+}
+.meal img{
+    width: 100%;
+}
+
+.inner{
+    padding: 30px;
+}
+
+/* Contact Information Section */
+.cont{
+    background-color: #fffff0;
+}
+.contact{
+
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contact-caption{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 50px 30px;
+   
+
+}
+.contact-caption h2{
+    color: black;
+}
+
+
+.p1{
+    margin: 30px 0px;
+}
+
+.contact-list{
+    text-align: left; 
+}
+
+.contact-list ul li{
+    padding: 15px;
+}
+
+.contact-map{
+    width: 40%;
+    float : right;
+}
+
+/* Footer */
+.footer-col{
+    margin-top: 25px;
+    width: 25%;
+    float: left;
+    padding: 10px 0px;
+    /* text-align: center; */
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #353935;
+    color: white;
+    height:300px;
+}
+.footer-col h5
+{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* footer logo */
+
+.ftlogo{
+    background-color: #28282B;
+}
+.ftlogo-caption{
+    text-align: center;
+    margin: auto;
+    width:40%;
+    padding: 30px;
+    color: white;
+
+}
+.ftlogo-caption img{
+    width: 50%;
+    
+}
